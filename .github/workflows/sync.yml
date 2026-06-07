@@ -1,6 +1,7 @@
 name: Sync
 
 on:
+  push:
   schedule:
     - cron: "0 19,23,11,15 * * *"
   workflow_dispatch:
